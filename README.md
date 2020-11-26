@@ -11,7 +11,7 @@ This project is a starter kit to run a NestJS project using Docker and Mongo DB.
 ```bash
 $ docker-compose up
 ```
-- Check the "Hello world" message in the browser in http://localhost:3000
+- Check the "Hello world" message in the browser at http://localhost:3000
 
 ## Nestjs CLI
 After the docker run is complete, we're able to use NestJS CLI in the container.
