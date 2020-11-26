@@ -30,4 +30,4 @@ $ nest --help
 By default the MongoDB container will listen on port 27017, to change it edit the ports section of the mongo service in the docker-compose.yml file.
 ## License
 
-  Nest is [MIT licensed](LICENSE).
+MIT
