@@ -1,0 +1,22 @@
+version: '2'
+
+services:
+  
+  web:
+    container_name: 'web_service_a'
+    build: .
+    volumes:
+      - ./:/app
+      - /app/node_modules
+    ports:
+      - '3000:3000'
+    depends_on:
+      - mongo
+
+  mongo:
+    container_name: 'mongo_service_a'
+    image: mongo
+    ports:
+      - '27017:27017'
+    volumes:
+      - /data/db
